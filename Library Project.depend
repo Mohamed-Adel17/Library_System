@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1609627981 source:c:\users\mu\documents\training tasks\library project\inout.c
+	"InOut.h"
+
+1609601852 c:\users\mu\documents\training tasks\library project\linked_list.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1609546888 c:\users\mu\documents\training tasks\library project\inout.h
+	"Linked_list.h"
+
+1609628131 source:c:\users\mu\documents\training tasks\library project\main.c
+	"Linked_list.h"
+	"InOut.h"
+	"control_project.h"
+
+1609627735 source:c:\users\mu\documents\training tasks\library project\linked_list.c
+	"Linked_list.h"
+
+1609548679 source:c:\users\mu\documents\training tasks\library project\control_project.c
+	"control_project.h"
+
+1609546888 c:\users\mu\documents\training tasks\library project\control_project.h
+	"Linked_list.h"
+
