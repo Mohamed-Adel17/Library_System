@@ -64,7 +64,7 @@ void ReadBooksStatusFromFile(books_t *ptr)
             {
                 user_t *Node = search_id(ptr[i].owner);
                 strcpy(Node->borrowed_books[Node->counter] , ptr[i].book_name);    // status starts from 0 and increased with every new book borrowed
-                strcpy(ptr[i].borrowing_status,"not available");       // ID-1 as index of array starting from 0, but the book_id starts from 1
+                strcpy(ptr[i].borrowing_status,"not available");      
                 Node->counter++;
             }
             i++;
